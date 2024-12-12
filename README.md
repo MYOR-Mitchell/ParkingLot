@@ -13,9 +13,10 @@ This folder contains basic calculators created while studying the basics of diff
 ### `/TheTechAcademyProjects/`
 Projects completed during my bootcamp at The Tech Academy, with some personal tweaks.
 
-- **`AcademyCinemas/`**: A project focused on learning and applying Bootstrap for responsive design.  
-- **`PetShop/`**: A project aimed at refining basic HTML and CSS skills, including the creation of contact pages.  
-- **`SimpleRecipes/`**: A project focused on media sizing, CSS effects, and interactive buttons.
+- **`AcademyCinemas/`**: Learning and applying Bootstrap for responsive design.  
+- **`PetShop/`**: Refining basic HTML and CSS skills, including the creation of contact pages.  
+- **`SimpleRecipes/`**: Media sizing, CSS effects, and interactive buttons.
+- **`Calculator/`**: Showcasing a modern calculator made with Javascript.
 
 ### `/TriviaPage/`
 A random One Piece-themed trivia page with a simple quiz.  
