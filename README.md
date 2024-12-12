@@ -18,7 +18,7 @@ Projects completed during my bootcamp at The Tech Academy, with some personal tw
 - **`SimpleRecipes/`**: A project focused on media sizing, CSS effects, and interactive buttons.
 
 ### `/TriviaPage/`
-A random One Piece-themed trivia page with a simple interactive trivia 'test.'
+A random One Piece-themed trivia page with a simple quiz.  
 I might make more since it was fun, but this is where they'll end up.
 
 ### `/WebMockups/`
