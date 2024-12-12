@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filler</title>
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/main.js" defer></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="top-row">
+    <button class="circle">D</button>
+    <div class="bar">
+      <div class="info-bar">
+        <span id="greeting">Today is your day.</span>
+        <span id="date-time"></span>
+        <span id="weather"></span>
+      </div>
+    </div>
+    <button i class="fas fa-home oval oval-home"> Home</button>
+    <button i class="fas fa-info-circle oval oval-about"> About</button>
+    <button i class="fas fa-envelope oval oval-contact"> Contact</button>
+    <button class="oval">-</button>
+    <button class="oval">-</button>
+    <button class="square">-</button>
+  </div>
+
+  <div id="home" class="section section-header">Filler</div>
+
+  <div class="row-3">
+    <div class="section section-welcome">
+      <h1>Welcome</h1>
+        Filler.
+    </div>
+    <div class="section section-image">
+      <p>Problem Solver | Code Enthusiast<br><br>
+        <img src="images/the-guy.jpg" alt="The Guy"><br>
+        "Insert dif picture."
+      </p>
+    </div>
+    <div class="section section-skills">
+      <h1>Skills</h1>
+
+      <ul>
+        <li>a</li>
+        <li>b</li>
+        <li>c</li>
+        <li>d</li>
+        <li>e</li>
+        <li>f</li>
+        <li>g</li>
+        <li>h</li>
+        <li>i</li>
+        <li>j</li>
+        <li>k</li>
+        <li>l</li>
+        <li>m</li>
+        <li>n</li>
+        <li>o</li>
+        <li>p</li>
+        <li>q</li>
+        <li>r</li>
+      </ul>
+
+      <h2>Education</h2>
+      <p>School - Filler</p>
+    </div>
+  </div>
+
+  <div id="about" class="section section-about">
+    <h1>Building My Future</h1>
+    <p>
+      Filler.
+    </p>
+  </div>
+
+  <footer id="contact">
+    <!-- Contact Information -->
+    <div class="footer-section contact-info">
+      <div class="contact-name">First Last</div>
+      <p>Email: <a href="mailto:contact@gomyor.com">contact@email.com</a></p>
+      <p>Phone: <a href="tel:+1234567890">+1-234-567-8910</a></p>
+      <!-- Social media links -->
+      <div class="social-icons">
+        <a href="#" target="_blank"><i class="fab fa-discord"></i>Discord</a>
+        <a href="#" target="_blank"><i class="fab fa-github"></i>Github</a>
+      </div>
+    </div>
+    <!-- Flip Image Section -->
+    <div class="flip-container footer-flip">
+      <div class="circle">
+        <img src="images/the-guy.jpg" alt="Avatar" class="front">
+        <img src="images/the-cats-logo.jpg" alt="Cats Logo" class="back">
+      </div>
+      <p class="flip-text">"Your road, your reality"</p>
+    </div>
+    <!-- Contact Form -->
+    <div class="footer-section contact-form">
+      <form id="contact-form" action="your-backend-url" method="POST">
+        <!-- Row for Name and Email Inputs -->
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name...">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email...">
+          </div>
+        </div>
+        <!-- Subject Input -->
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="Enter the subject...">
+        </div>
+        <!-- Message Input -->
+        <div class="form-group">
+          <label for="message">Message</label>
+          <div class="textarea-container">
+            <textarea id="message" name="message" required placeholder="Write your message..."></textarea>
+            <!-- Submit Button -->
+            <button type="submit"><i class="fas fa-paper-plane"></i> Send</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </footer>
+
+</body>
+
+</html>
